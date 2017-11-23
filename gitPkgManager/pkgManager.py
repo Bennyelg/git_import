@@ -69,7 +69,7 @@ class GitPackageManager(object):
 
         if os.path.isdir(self.full_dir_path) and self.always_sync:
             command = f"cd {self.full_dir_path}; git pull origin {self.branch}"
-            subprocess.run(command)
+            subprocess.run(command, shell=True)
 
         if self.commit_hash != "":
             command = f"cd {self.full_dir_path}; git checkout {self.commit_hash}"
