@@ -1,7 +1,7 @@
 # GitPackageManager
 Import directly from git.
 
-## :: ALPHA 1 version :: (Not production ready) 
+## :: ALPHA 1 v0.5 version :: (Please do not use this in production just yet.)
 
 ```bash
 sudo pip3.6 install python-git-pkgManager
@@ -68,7 +68,8 @@ PACKAGES = {
     },
     "Retrying": {
         "ssh_repo_url": "git@github.com:rholder/retrying.git",
-        "save_path": SAVE_PATH
+        "save_path": SAVE_PATH,
+        "alwyas_async": True
     },
     "commonRegex": {
         "ssh_repo_url": "git@github.com:madisonmay/CommonRegex.git",

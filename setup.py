@@ -2,7 +2,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 setup(name='python-git-pkgManager',
-      version="v0.4",
+      version="v0.5",
       description="Import extension from github directly into your project.",
       author='Benny Elgazar',
       url='https://github.com/bennyelg/git_import',

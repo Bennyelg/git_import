@@ -1,0 +1,3 @@
+dist/*
+python_git_pkgManager.egg-info/*
+.idea/
