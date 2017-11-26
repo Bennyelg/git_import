@@ -69,7 +69,7 @@ PACKAGES = {
     "Retrying": {
         "ssh_repo_url": "git@github.com:rholder/retrying.git",
         "save_path": SAVE_PATH,
-        "alwyas_async": True
+        "always_sync": True
     },
     "commonRegex": {
         "ssh_repo_url": "git@github.com:madisonmay/CommonRegex.git",
